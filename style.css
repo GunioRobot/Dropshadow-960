@@ -1,17 +1,17 @@
 /* 
-	Theme Name: Dropshadow 2-Column
-	Theme URL: http://www.briangardner.com/themes/dropshadow-wordpress-theme.htm
-	Description: Dropshadow is a modern, 2-column Widget-ready theme created for Wordpress.
-	Author: Brian Gardner
-	Author URI: http://www.briangardner.com
-	Version: 1.0
+	Theme Name: Dropshadow 960
+	Theme URL: http://github.com/bhornseth/Dropshadow-960
+	Description: Dropshadow is a clean, modern template orignally written by Brian Gardner, adapted to 960px by Brandon Hornseth
+	Author: Brandon Hornseth
+	Author URI: http://github.com/bhornseth/
+	Version: 1.1
 		
 	The CSS, XHTML and design is released under GPL:
 	http://www.opensource.org/licenses/gpl-license.php
 	
 	Changelog:
-		v1.0 - 05.17.07
-		First Release of Dropshadow 2-Column
+	  v2.0 - 09.20.09   Adapted to 960px width [Brandon Hornseth]
+		v1.0 - 05.17.07   First Release of Dropshadow 2-Column [Brian Gardner]
 */
 
 body {
@@ -48,7 +48,7 @@ a:hover      {
 ************************************************/
 
 #header {
-	width: 820px;
+	width: 920px;
 	height: 80px;
 	margin: 0px auto 0px;
 	padding: 0px;
@@ -116,7 +116,7 @@ a:hover      {
 ************************************************/
 
 #content {
-	width: 780px;
+	width: 920px;
 	margin: 0px auto 0px;
 	padding: 0px;
 	}
@@ -170,7 +170,7 @@ a:hover      {
 	
 #contentleft {
 	float: left;
-	width: 500px;
+	width: 640px;
 	margin: 0px;
 	padding: 0px;
 	}
