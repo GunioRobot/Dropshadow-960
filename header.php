@@ -7,10 +7,6 @@
 <meta name="language" content="en, sv" />
 
 <title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
-<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" />
-<!-- leave this for stats please -->
-
-<link rel="Shortcut Icon" href="<?php echo get_settings('home'); ?>/wp-content/themes/dropshadow-2column/images/favicon.ico" type="image/x-icon" />
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
 <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
