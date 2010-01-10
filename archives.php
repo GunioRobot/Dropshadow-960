@@ -3,7 +3,7 @@
     <div id="contentleft">
         <h1>Archives</h1>
         <div id="archives-list">
-        <?php query_posts('orderby=date&order=DESC')?>
+        <?php query_posts('posts_per_page=-1&orderby=date&order=DESC')?>
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>    
             <?php $thisPostDate = the_date('F Y', '', '', false); ?>
             <?php if (isset($curDate) && $curDate !== $thisPostDate): ?>
