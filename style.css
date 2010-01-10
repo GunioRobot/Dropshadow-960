@@ -10,6 +10,7 @@
 	http://www.opensource.org/licenses/gpl-license.php
 	
 	Changelog:
+	  v2.1 - 01.10.10   Added a full archives page [Brandon Hornseth]
 	  v2.0 - 09.20.09   Adapted to 960px width [Brandon Hornseth]
 		v1.0 - 05.17.07   First Release of Dropshadow 2-Column [Brian Gardner]
 */
@@ -42,10 +43,11 @@ a, a:visited{
 a:hover      {
 	text-decoration: underline;
 	}
-	
+
 a img {
-	border: none;
-	}
+	border:none;
+}
+	
 /************************************************
 *	Header  									*
 ************************************************/
@@ -468,3 +470,24 @@ p.comments_link  img{
 	border-bottom-style: none;
 	border-left-style: none;
 	}
+
+
+/************************************************
+*	Archives List									*
+************************************************/
+#contentleft #archives-list ul li{
+  list-style-type: none;
+}
+
+
+.archives-section {
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.lighter {
+  color: #BFBFBF;
+}
